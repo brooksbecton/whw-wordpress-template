@@ -1,0 +1,269 @@
+/*
+Theme Name: Where Hope Wanders Theme
+Author: Brooks Becton
+Description: A custom theme created for the Where Hope Wanders Blog
+Text Domain: wherehopewanders
+*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* END RESET */
+
+
+/* FONT SCALE */
+
+html {
+    font-size: 1em;
+}
+
+body {
+    background-color: white;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #333;
+}
+
+p {
+    font-family: "Helvetica";
+    margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.998em;
+}
+
+h2 {
+    font-size: 2.827em;
+}
+
+h3 {
+    font-size: 1.999em;
+}
+
+h4 {
+    font-size: 1.414em;
+}
+
+small,
+.font_small {
+    font-size: 0.707em;
+}
+
+:root {
+    --main: #51c7b0;
+    --main-dark: #31af96;
+    --main-darkest: #149c81;
+    --main-light: #7bddca;
+    --main-lightest: #b1f0e4;
+    --secondary: #f86579;
+    --secondary-dark: #f86579;
+    --secondary-darkest: #e91e3a;
+    --secondary-light: #fa8b9a;
+    --secondary-lightest: #fdbac3;
+}
+
+a {
+    color: var(--secondary-dark);
+}
+
+a:visited {
+    color: var(--secondary-light);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.link_container {
+    position: sticky;
+}
+
+.main_brand {
+    width: 12vw;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main_nav {
+    background-color: var(--main);
+    -webkit-box-shadow: 2px 0px 24px 0px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 2px 0px 24px 0px rgba(0, 0, 0, 0.62);
+    box-shadow: 2px 0px 24px 0px rgba(0, 0, 0, 0.62);
+    text-align: center;
+    width: 23%;
+}
+
+.main_nav ul {
+    display: sticky;
+}
+
+.main_nav ul li a {
+    color: #333;
+    font-size: 1.999em;
+    text-decoration: none;
+}
+
+.main_nav ul li:hover {
+    background-color: var(--main-light);
+    cursor: pointer;
+}
+
+.main_content {
+    width: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
